@@ -1,0 +1,58 @@
+/* Playlist Header */
+.playlist-header {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playlist-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.playlist-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-info h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Track Tile Grid */
+.track-tile-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.track-tile {
+    background-color: #181818;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.track-album-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.track-info {
+    margin-top: 10px;
+}
+
+.track-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.track-artist {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}

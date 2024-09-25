@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+.btn-container{
+
+    color: rgb(231, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 20px;
+    padding:0px 10px;
+}
+.btn-container.active{
+    color: white;
+    background: rgba(214, 218, 214, 0.568);
+    border-radius: 12px;
+    transform: scale(1.05);
+}
+.btn-container:hover{
+    color: white;
+
+}
+.btn-title{
+    margin: 4px auto;
+    font-weight:600;
+    font-size:15px
+}
